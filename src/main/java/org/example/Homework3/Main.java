@@ -17,10 +17,5 @@ public class Main {
         }
 
         System.out.println("Лучший студент: " + best.name() + " со средним баллом: " + best.calculateAverage());
-        // А ЗДЕСЬ ДОЛЖНО БЫТЬ ОБЪЯВЛЕНИЕ МАССИВА КОТОРРЫЙ И СОДЕРЖИТ НАШИХ СТУДЕНТОВ
-//        System.out.println(sanya.name);
-//        for(int i : sanya.grades) {
-//            System.out.print(i + ", ");
-//        }
     }
 }
