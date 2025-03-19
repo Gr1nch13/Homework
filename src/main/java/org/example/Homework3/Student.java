@@ -9,7 +9,14 @@ public class Student {
         this.grades = grades;
         this.name = name;
     }
-    public void calculateAverage(){
-
+    public double calculateAverage(){
+        int sum = 0;
+        for (int grade : grades) {
+            sum += grade;
+        }
+        return (double) sum / grades.length;
+    }
+    public String name() {
+        return name;
     }
 }
