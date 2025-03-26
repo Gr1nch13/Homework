@@ -31,15 +31,17 @@ public class testMatrixProcessor extends MatrixProcessor{
         int[][] matrix4 = {
                 {}
         };
-        HashSet<Integer> unique0 = findUniqueInMatrix(matrix0);
-        HashSet<Integer> unique1 = findUniqueInMatrix(matrix1);
-        HashSet<Integer> unique2 = findUniqueInMatrix(matrix2);
-        HashSet<Integer> unique3 = findUniqueInMatrix(matrix3);
-        HashSet<Integer> unique4 = findUniqueInMatrix(matrix4);
-        System.out.println("Уникальные элементы: " + unique0);
-        System.out.println("Уникальные элементы: " + unique1);
-        System.out.println("Уникальные элементы: " + unique2);
-        System.out.println("Уникальные элементы: " + unique3);
-        System.out.println("Уникальные элементы: " + unique4);
+
+
+        HashSet<Integer> unique = findUniqueInMatrix(matrix0);
+        System.out.println("Уникальные элементы: " + unique);
+        unique = findUniqueInMatrix(matrix1);
+        System.out.println("Уникальные элементы: " + unique);
+        unique = findUniqueInMatrix(matrix2);
+        System.out.println("Уникальные элементы: " + unique);
+        unique = findUniqueInMatrix(matrix3);
+        System.out.println("Уникальные элементы: " + unique);
+        unique = findUniqueInMatrix(matrix4);
+        System.out.println("Уникальные элементы: " + unique);
     }
 }
