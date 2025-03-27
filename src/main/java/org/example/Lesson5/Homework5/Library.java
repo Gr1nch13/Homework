@@ -15,12 +15,14 @@ public class Library {
             System.out.println("В библиотеке уже содержится книга с ISBN: " + isbn);
         }else {
             books.put(isbn, book);
+            System.out.println("Книга успешно добавлена");
         }
     }
 
     public void removeBook(String isbn) {
         if (books.containsKey(isbn)) {
             books.remove(isbn);
+            System.out.println("Книга успешно удалена");
         }else {
             System.out.println("Книги с ISBN: " + isbn + " не существует в библиотеке");
         }
